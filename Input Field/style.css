@@ -1,0 +1,106 @@
+/* CSS for Stylish Form  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(istockphoto-889535070-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    background-color: rgb(0, 0, 0, 0.2);
+    color: white;
+    margin: 10px;
+}
+
+label {
+    font-size: 1.5rem;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+input {
+    margin: 10px;
+}
+
+#text {
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(250, 229, 238);
+    color: black;
+    font-size: 1.1rem;
+}
+
+#text::placeholder {
+    letter-spacing: 5px;
+}
+
+#date {
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(222, 190, 190);
+    color: black;
+    font-size: 1.1rem;
+}
+
+#search {
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(185, 185, 206);
+    color: black;
+    font-size: 1.1rem;
+}
+
+#search::placeholder {
+    letter-spacing: 5px;
+}
+
+#email {
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(213, 232, 255);
+    color: black;
+    font-size: 1.1rem;
+}
+
+#password {
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(222, 204, 222);
+    color: black;
+    font-size: 1.1rem;
+}
+
+#submit {
+    width: 20%;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(153, 153, 236);
+    color: azure;
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#submit:hover {
+    background-color: rgb(112, 112, 243);
+    transition: background-color 0.5s ease-in-out;
+}

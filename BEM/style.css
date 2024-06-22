@@ -1,0 +1,21 @@
+/* CSS for BEM Naming Classes */
+
+* {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.blockClass {
+    background-color: #b44d4d;
+}
+
+.element--class {
+    background-color: blueviolet;
+}
+
+.modifier__class {
+    background-color: aquamarine;
+}

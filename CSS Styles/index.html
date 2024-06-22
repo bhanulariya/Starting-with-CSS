@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styles</title>
+
+    <!-- External CSS Given Below -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS Given Below -->
+
+    <style>
+        .internal-css {
+            background-color: white;
+            border: 1px solid black;
+            color: blue;
+            text-align: center;
+            width: 70%;
+        }
+        /* Combine CSS */
+        
+        .combine-css {
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <div class="header">
+        CSS Styles
+    </div>
+
+    <!-- Inline CSS -->
+
+
+    <div class="inline-css" style="text-align: center; width: 70%; background-color: white; border: 1px solid black; color: black;">
+        Inline CSS
+    </div>
+
+    <!-- Internal CSS -->
+
+    <div class="internal-css">
+        Internal CSS
+    </div>
+
+    <!-- External CSS -->
+
+    <div class="external-css">
+        External CSS
+    </div>
+
+    <!--
+      Combine CSS :
+                    When we apply all three CSS style in a single Element,
+                    the priority of, external < internal < inline ,
+                    the highest priority is taken 
+                    by inline css shown in below
+    -->
+
+    <div class="combine-css" style="text-align: center; width: 70%; color: purple; background-color: white; border: 1px solid black;">
+        Combine CSS
+    </div>
+
+</body>
+
+</html>
